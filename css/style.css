@@ -599,31 +599,3 @@ margin: 20px;
     padding: 10px;
     position: relative;
 }
-.footer-left p{
-    font-size:15px;
-    color:#231F20;
-    margin: 0px;
-    float: left;
-
-
-}
-.footer-right p {
-  font-size: 15px;
-  color: #231F20;
-  margin: 15px 0px;
-  float: right;
-}
-.goto-top-button {
-  width: 50px;
-  height: 50px;
-  float: left;
-  position: absolute;
-  bottom: 15px;
-  right: 20px;
-  z-index: 9999;
-}
-.goto-top-button a {
-    font-size: 50px;
-    font-weight: 800;
-    color: #ffffff;
-}
