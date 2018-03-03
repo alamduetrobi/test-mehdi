@@ -1,0 +1,143 @@
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1169px) {
+.single-service .service-content .service-text > p {
+	font-size: 11px;
+}
+.owl-next{
+	right: -40px;
+}
+
+.owl-prev {
+	left: -40px;
+}
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+	.single-service .service-content .service-text {
+	width: 17%;
+	float: right;
+}
+.owl-next {
+	right: -10px;
+}
+.owl-prev {
+	left: -10px;
+}
+.slider-active .owl-nav .owl-next {
+    right:0px;
+}
+.country-service ul li a {
+	font-size: 13px;
+}
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+.container {width:300px}
+ 
+  .single-service .service-content .service-text > p {
+	font-size: 10px;
+}
+
+.single-service .service-content .service-text {
+	width: 33%;
+}
+.owl-prev {
+	left: -15px;
+}
+.owl-next {
+	right: -10px;
+}
+.slider-active .owl-nav .owl-next i {
+	margin-right: 20px;
+}
+
+.all-country ul li::after {
+	top: 7px;
+	height: 13px;
+}
+.footer-right p {
+	float: left 
+}
+.owl-prev, .owl-next {
+	display: none;
+}
+.single-country .country-item ul li i {
+	font-size: 14px;
+}
+.single-country .country-item h2 {
+	font-size: 15px;
+}
+.country-service ul li a {
+	font-size: 8px;
+}
+.social-item ul li a i {
+	font-size: 15px;
+}
+.social-item ul li {
+	background: #EAEAEA none repeat scroll 0 0;
+	border-radius: 100%;
+	display: inline-block;
+	height: 32px;
+	line-height: 32px;
+	padding: 2px 5px;
+	text-align: center;
+	width: 32px;
+	margin: 5px;
+}
+#footer-top {
+	padding: 10px;
+}
+.footer-top-content {
+	width: 100%;
+}
+.all-country ul li a {
+	font-size: 10px;
+}
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+.single-service .service-content .service-text {
+	width: 34%;
+}
+
+.owl-prev, .owl-next {
+	display: none;
+}
+.all-country ul li a {
+	font-size:10px;
+}
+.country-service ul li a {
+	font-size: 8px;
+
+}
+.social-item ul li a i {
+	font-size: 15px;
+}
+.social-item ul li {
+	background: #EAEAEA none repeat scroll 0 0;
+	border-radius: 100%;
+	display: inline-block;
+	height: 32px;
+	line-height: 32px;
+	padding: 2px 5px;
+	text-align: center;
+	width: 32px;
+	margin: 5px;
+}
+#footer-top {
+	padding: 10px;
+}
+.footer-top-content {
+	width: 100%;
+}
+
+}
+ 

@@ -1,0 +1,629 @@
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+All Styles 
+Project:    Travnet Tech 
+Author:     Travnet Tech Team
+Author URI: http://www.ncltours.co.uk/
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++ Table of contents +++++++++    
+1. Font
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+
+/* Start Font */
+@font-face {
+    font-family: 'MyriadPro-Bold';
+    src:url('../webfonts/MyriadPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/MyriadPro-Bold.otf')  format('opentype'),
+        url('../webfonts/MyriadPro-Bold.woff') format('woff'),
+        url('../webfonts/MyriadPro-Bold.ttf')  format('truetype'),
+        url('webfonts/MyriadPro-Bold.svg#MyriadPro-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MyriadPro-BoldCond';
+    src:url('../webfonts/MyriadPro-BoldCond.eot?#iefix') format('embedded-opentype'),  
+        url('../webfonts/MyriadPro-BoldCond.otf')  format('opentype'),
+        url('../webfonts/MyriadPro-BoldCond.woff') format('woff'), 
+        url('../webfonts/MyriadPro-BoldCond.ttf')  format('truetype'), 
+        url('../webfonts/MyriadPro-BoldCond.svg#MyriadPro-BoldCond') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MyriadPro-BoldCondIt';
+    src:url('../webfonts/MyriadPro-BoldCondIt.eot?#iefix') format('embedded-opentype'),  
+        url('../webfonts/MyriadPro-BoldCondIt.otf')  format('opentype'),
+        url('../webfonts/MyriadPro-BoldCondIt.woff') format('woff'), 
+        url('../webfonts/MyriadPro-BoldCondIt.ttf')  format('truetype'), 
+        url('../webfonts/MyriadPro-BoldCondIt.svg#MyriadPro-BoldCondIt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MyriadPro-BoldIt';
+    src:url('../webfonts/MyriadPro-BoldIt.eot?#iefix') format('embedded-opentype'),  
+        url('../webfonts/MyriadPro-BoldIt.otf')  format('opentype'),
+        url('../webfonts/MyriadPro-BoldIt.woff') format('woff'), 
+        url('../webfonts/MyriadPro-BoldIt.ttf')  format('truetype'), 
+        url('../webfonts/MyriadPro-BoldIt.svg#MyriadPro-BoldIt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MyriadPro-Cond';
+    src:url('../webfonts/MyriadPro-Cond.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/MyriadPro-Cond.otf')  format('opentype'),
+        url('../webfonts/MyriadPro-Cond.woff') format('woff'),
+        url('../webfonts/MyriadPro-Cond.ttf')  format('truetype'),
+        url('../webfonts/MyriadPro-Cond.svg#MyriadPro-Cond') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MyriadPro-CondIt';
+    src:url('../webfonts/MyriadPro-CondIt.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/MyriadPro-CondIt.otf')  format('opentype'),
+        url('../webfonts/MyriadPro-CondIt.woff') format('woff'),
+        url('../webfonts/MyriadPro-CondIt.ttf')  format('truetype'),
+        url('../webfonts/MyriadPro-CondIt.svg#MyriadPro-CondIt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MyriadPro-It';
+    src:url('../webfonts/MyriadPro-It.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/MyriadPro-It.otf')  format('opentype'),
+        url('../webfonts/MyriadPro-It.woff') format('woff'),
+        url('../webfonts/MyriadPro-It.ttf')  format('truetype'),
+        url('../webfonts/MyriadPro-It.svg#MyriadPro-It') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MyriadPro-Regular';
+    src:url('../webfonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/MyriadPro-Regular.otf')  format('opentype'),
+        url('../webfonts/MyriadPro-Regular.woff') format('woff'),
+        url('../webfonts/MyriadPro-Regular.ttf')  format('truetype'),
+        url('../webfonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MyriadPro-Semibold';
+    src:url('../webfonts/MyriadPro-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/MyriadPro-Semibold.otf')  format('opentype'),
+        url('../webfonts/MyriadPro-Semibold.woff') format('woff'),
+        url('../webfonts/MyriadPro-Semibold.ttf')  format('truetype'),
+        url('../webfonts/MyriadPro-Semibold.svg#MyriadPro-Semibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MyriadPro-SemiboldIt';
+    src:url('../webfonts/MyriadPro-SemiboldIt.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/MyriadPro-SemiboldIt.otf')  format('opentype'),
+        url('../webfonts/MyriadPro-SemiboldIt.woff') format('woff'),
+        url('../webfonts/MyriadPro-SemiboldIt.ttf')  format('truetype'),
+        url('../webfonts/MyriadPro-SemiboldIt.svg#MyriadPro-SemiboldIt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}  
+/* End Font */
+
+
+
+/* -----------------------------------   
+    trav_banner_section
+-------------------------------------*/
+
+
+/*----------------------------------------*/
+/*  5. services-area Start Here
+/*----------------------------------------*/
+
+body{
+      font-family: 'MyriadPro-Regular';
+}
+.services-area {
+  background: #ffc655 none repeat scroll 0 0;
+  padding-bottom: 5px;
+  padding-top: 25px;
+}
+.single-service {
+  max-height: 180px;
+  position: relative;
+}
+.single-service:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    background: #000;
+    width: 100%;
+    height: 100%;
+    opacity:0;
+    transform: rotate(0deg); 
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+/* .single-service:hover::before {
+  opacity: 0.4;
+  transform: rotate(180deg); 
+}
+.single-service.active::before {
+ opacity: 0.4;
+  transform: rotate(180deg); 
+} */
+.single-service .service-content{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 100%;
+}
+.single-service .service-content > p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+}
+.single-service .service-content .service-text{
+    width: 35%;
+    float: right;
+}
+.single-service .service-content .service-text h3 {
+  color: #fff;
+  display: block;
+  float: left;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 50%;
+}
+.single-service .service-content .service-text > p {
+  background: #ffc655 none repeat scroll 0 0;
+  border-radius: 15px;
+  font-size: 15px;
+  margin-right: 20px;
+  padding: 5px 10px;
+  margin-bottom: 0px;
+}
+.service-icon {
+  display: block;
+  width: 65%;
+  overflow: hidden;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+  font-family: 'Myriad Pro';
+  position: absolute;
+  bottom: 0px;
+}
+.service-icon p, h3{
+  margin-bottom: 0px;
+    font-weight: 700;
+  font-family: 'Myriad Pro';
+  line-height: 25px;
+}
+.service-icon p i{
+      font-weight: 700;
+      font-size: 30px;
+}
+
+.service-icon p span{
+      font-weight: 700;
+      font-family: 'Myriad Pro';
+      font-size: 30px;
+}
+.single-service .service-content .service-text >p a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Myriad Pro';
+    font-weight: 700;
+}
+.single-service img {
+  display: block;
+  height: 250px;
+  width: 100%;
+}
+.all-servicer .dots{}
+.all-servicer .dots .owl-dot{
+
+}
+.owl-dots {
+  padding-top:20px;
+  text-align: center;
+}
+.owl-dot{
+  background: #fff none repeat scroll 0 0;
+  display: inline-block;
+  height: 7px;
+  width: 7px;
+  margin: 0px 5px;
+  border-radius: 100%;
+  line-height: 10px;
+}
+.owl-dot.active{
+    background: #000;
+}
+.owl-dot span{
+    display:block;
+}
+.owl-prev {
+    left: -72px;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-40%);
+}
+.owl-next {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-40%);
+    right: -70px;
+}
+.owl-prev i, .owl-next i {
+  color: #fff;
+  font-family:Font Awesome\ 5 Free;
+  font-size: 45px;
+  font-weight: 900;
+}
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+    height: 250px;
+}
+.bbt-slider{
+float: left;
+padding: 0px;
+}
+
+/*----------------------------------------*/
+/*  6.  Middle Slider start Here
+/*----------------------------------------*/
+#Middle-slider {
+    background: #fff none repeat scroll 0 0;
+    padding-bottom: 30px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+#Middle-slider .single-country{
+    background: #fff;
+}
+
+#Middle-slider .single-country .country-image {
+ /*  margin-top: 30px; */
+}
+.single-country{
+    position: relative;
+  
+}
+/* .single-country:hover::before {
+  opacity: 0.3;
+  transform: scaleY(1); 
+  
+}
+ */
+.single-country:before{
+    position: absolute;
+    background: #000;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity:0.2;
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+transition: all 0.3s ease;
+/*     transform: scaleY(0); */
+    
+}
+.single-country .country-item {
+  border: 0 none;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.single-country .country-item h2{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    font-size: 22px;
+}
+.single-country .country-item ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.single-country .country-item ul li {
+  display: inline-block;
+  padding: 0 2px;
+}
+.single-country .country-item ul li i{
+    font-size: 20px;
+    color: #fff;
+}
+.single-country .country-item ul li .fas.fa-plane {
+  transform: rotate(-90deg);
+}
+
+.slider-active2 .owl-dots .owl-dot{
+  background: #fff none repeat scroll 0 0;
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  margin: 0px 5px;
+  border-radius: 100%;
+  line-height: 10px;
+}
+
+.slider-active .owl-dots .owl-dot.active{
+    background: #000;
+}
+.slider-active .owl-dots .owl-dot{
+    background: #FFC655;
+}
+.slider-active .owl-nav{
+    background: #FFC655;
+}
+.slider-active .owl-nav .owl-next {
+  position: absolute;
+  right: auto;
+  top: 46%;
+  transform: translateY(-46%);
+  right: auto;
+}
+.slider-active .owl-nav .owl-prev {
+  position: absolute;
+  top: 46%;
+  transform: translateY(-46%);
+  right: auto;
+}
+.slider-active .owl-nav .owl-next {
+    right: -40px;
+}
+.slider-active .owl-nav .owl-next i {
+  color: #ffc655;
+  margin-right: -30px;
+}
+.slider-active .owl-nav .owl-prev i {
+  color: #ffc655;
+  margin-left: -10px;
+}
+.owl-dot span{
+    display:block;
+}
+
+.bbt-slider{
+  float: left;
+  width: 33.33%;
+  padding:7px; 
+}
+
+/*----------------------------------------*/
+/*  7. Banner item
+/*----------------------------------------*/
+#bbt-topdes{
+    padding:15px 0px; 
+  background: #666666;
+}
+.bbt-topitem{
+  text-align: center;
+
+}
+.bbt-topitem p {
+  margin: 0px;
+  text-transform: uppercase;
+  color: #FFC655;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+/*----------------------------------------*/
+/*  8. country list
+/*----------------------------------------*/
+#country-name{
+  padding: 25px 0px;
+  background:#FFC655;
+}
+.all-country {
+  width: 100%;
+  display: block;
+}
+.service-item{
+  width: 100%;
+}
+.all-country ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  /* display: flex; */
+  justify-content: center;
+  justify-content: space-around;
+  display: block;
+  width: 100%;
+  /* float: left; */
+}
+.all-country ul li {
+  list-style: none;
+  padding: 0px 11px;
+  position: relative;
+  float: left;
+  /* width: 100%; */
+}
+.all-country ul li::after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 1px;
+  height: 20px;
+  border-right:2px solid #666666;
+}
+.all-country ul li:first-child::after {
+  border: none;
+}
+.all-country ul li a{
+  color: #666666;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+/*----------------------------------------*/
+/*  8. country list Service
+/*----------------------------------------*/
+#service-list{
+  padding: 45px 0px;
+  background: #EAEAEA;
+}
+.country-service{
+  display: block;
+  width: 20%;
+  float: left;
+}
+.country-service ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+.country-service ul li.service-titile{
+
+}
+.country-service ul li.service-titile a{
+    color: #FFC655;
+    font-weight: 700;
+}
+.country-service ul li{
+  list-style: none;
+
+
+}
+.country-service ul li a{
+  text-decoration: none;
+  color: #666666;
+  font-size: 20px;
+  font-weight: 300px;
+  text-transform: capitalize;
+}
+/*----------------------------------------*/
+/*  9. footer-top
+/*----------------------------------------*/
+
+#footer-top{
+  padding: 58px;
+}
+.footer-top-content{}
+.footer-top-content p{
+  font-weight: normal;
+  font-size: 16px;
+  color: #666666;
+}
+/*----------------------------------------*/
+/*  10.brand-section
+/*----------------------------------------*/
+#brand-section {
+  margin-bottom: 30px;
+}
+
+/*----------------------------------------*/
+/*  10. Footer top Brand Item & Social item
+/*----------------------------------------*/
+#footer-social{
+margin: 20px;
+}
+.brand-item{}
+.brand-item ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.brand-item ul li {
+  display: inline-block;
+  padding: 10px 15px;
+}
+.brand-item ul li a img{
+  max-width: 100%;
+  height: 40px;
+}
+
+.social-item ul{
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+.social-item ul li {
+  background: #EAEAEA none repeat scroll 0 0;
+  border-radius: 100%;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 2px 5px;
+  text-align: center;
+  width: 40px;
+  margin: 5px;
+}
+.social-item ul li a i {
+  font-size: 20px;
+  color: #FFC655;
+  font-weight: bold;
+}
+/*----------------------------------------*/
+/*  11. Footer Section start here
+/*----------------------------------------*/
+.foooter-area{
+    background: #FFC655;
+    padding: 10px;
+    position: relative;
+}
+.footer-left p{
+    font-size:15px;
+    color:#231F20;
+    margin: 0px;
+    float: left;
+
+
+}
+.footer-right p {
+  font-size: 15px;
+  color: #231F20;
+  margin: 15px 0px;
+  float: right;
+}
+.goto-top-button {
+  width: 50px;
+  height: 50px;
+  float: left;
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+  z-index: 9999;
+}
+.goto-top-button a {
+    font-size: 50px;
+    font-weight: 800;
+    color: #ffffff;
+}
